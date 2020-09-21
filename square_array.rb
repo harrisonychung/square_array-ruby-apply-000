@@ -1,3 +1,5 @@
 def square_array(array)
   square_array = []
-end
+  array.each do number
+    square_array << number * number
+    end
